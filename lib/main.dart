@@ -33,6 +33,7 @@ class MyAppState extends State<MyApp> {
       'What\'s your favorite animal?'
     ];
     return MaterialApp(
+<<<<<<< HEAD
       home: Scaffold(
           appBar: AppBar(
               title: Text(
@@ -52,6 +53,9 @@ class MyAppState extends State<MyApp> {
                   }),
             ],
           )),
+=======
+      home: Text('Hello! Flutter'),
+>>>>>>> 4c09f4acd4b19e5a9dbe8ce9c907d0bdbec553a8
     );
   }
 }
