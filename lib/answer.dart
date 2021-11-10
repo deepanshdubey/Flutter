@@ -5,7 +5,7 @@ class Answer extends StatelessWidget {
   final VoidCallback selectHandler;
   final String answerText;
 
-  Answer(this.selectHandler, String this.answerText);
+  Answer(this.selectHandler, this.answerText);
 
   @override
   Widget build(BuildContext context){
